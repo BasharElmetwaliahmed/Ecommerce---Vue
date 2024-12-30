@@ -49,10 +49,8 @@ export default {
   },
   methods: {
     handleSubmit() {
-      // Handle login logic here
       console.log("Email:", this.email);
       console.log("Password:", this.password);
-      // You can make an API call or perform any other action here
       this.auth.login(this.email,this.password)
     },
   },
